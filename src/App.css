@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App-container {
+  background-color: aliceblue;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* basicgrid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto;
+  height: 100vh;
+}
+
+/* basicgrid-end */
+
+/* item1 */
+
+.grid1 {
+  display: flex;
+  border: 1px solid blue;
+  height: 100vh;
+  width: 100%;
+}
+
+.g1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 2rem;
+  background-color: rgb(16, 16, 91);
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.Dash-board {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+}
+.Dash-board h2{
+    margin-left: 4px;
+    font-size: larger;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.item-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.item-icon:hover{
+    background-color: rgb(64, 83, 143);
+    width: 100%;
+    border-radius: 5px;
+    transform: translateY(10px);
+}
+
+.k1 {
+  width: 100%;
+}
+
+.MenuItem {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  /* border: 1px solid black; */
+  padding-bottom: 1rem;
+  width: 200px;
+  background-color: rgb(20, 20, 69);
+  border-radius: 10px;
+
+  
+}
+ .Image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-left: 4px;
+ }
+
+.names-item{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.heading{
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 9px;
+  margin-left: 9px;
+
+}
+.Para{
+  color: #fff;
+  margin-left: 9px;
+  font-size: smaller;
+}

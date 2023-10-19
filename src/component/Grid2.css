@@ -1,0 +1,152 @@
+.Grid2 {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+}
+.Row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+  margin: 1rem;
+}
+.Row1 span {
+  padding: 5px 5px;
+}
+.Row1-nav {
+  display: flex;
+  flex-direction: row;
+}
+.Row1-nav img {
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+}
+.Row1-search input {
+  text-align: center;
+  text-decoration: none;
+  padding: 2px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.Row1-search button {
+  padding: 2px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+/* row2 */
+.Row2 {
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+.Row2-item {
+  display: flex;
+  width: 23%;
+  margin-left: 10px;
+  height: 200px;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+}
+.cardImg {
+  width: 98px;
+  height: 98px;
+  border-radius: 49px;
+  display: flex;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+}
+.cardImg img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+.spanItem{
+    font-size: small;
+    padding-left: 1px;
+    display: flex;
+    flex-direction: column;
+}
+.Price {
+  font-size: large;
+}
+
+/* row2 */
+.Row3 {
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  
+}
+.Row3-item{
+    width: 70%;
+    /* display: flex; */
+background-color: #fff;
+border-radius: 10px;
+
+}
+ .Chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding-top: 10px
+ }
+ .chart-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+    background-color: #fff;
+ }
+ .chart-heding-span{
+    font-size: large;
+    font-weight: bold;
+
+ }
+ .chart-heding-span2{
+font-size: small;
+color: grey;
+ }
+
+ .chart-left{
+    padding-right: 40px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-size: small;
+ }
+.Row3-item2{
+    width: 30%;
+    /* background-color: aqua; */
+  
+}
+ .Row3-span{
+    padding: 8px 15px;
+    margin: 1px 5px;
+    background-color: #fff;
+ }
+.Row3-span span h3{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.para{
+    color: grey;
+    font-size: small;
+}
+.Row4 {
+  background-color: aliceblue;
+  /* border: 1px solid black; */
+}
